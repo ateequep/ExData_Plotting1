@@ -25,6 +25,7 @@ data_for_plot[,datetime:= as.POSIXct(paste(Date,Time,sep=" "),format="%Y-%m-%d %
 png("plot2.png")
 # Plot the required graph
 plot(data_for_plot$datetime,data_for_plot$Global_active_power,type="l",xlab = "",ylab="Global Active Power (kilowatts)")
+
 # Close the device connection
 dev.off()
 

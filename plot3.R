@@ -28,5 +28,6 @@ plot(data_for_plot$datetime, data_for_plot$Sub_metering_1, type="l", xlab="", yl
 points(data_for_plot$datetime, data_for_plot$Sub_metering_2, col="red", type="l")
 points(data_for_plot$datetime, data_for_plot$Sub_metering_3, col="blue", type="l")
 legend("topright", paste(c("Sub_metering_1","Sub_metering_2", "Sub_metering_3")), col = c("black", "red", "blue"),lwd=1)
+
 # Close the device connection
 dev.off()
