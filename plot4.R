@@ -36,7 +36,7 @@ legend("topright", paste(c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"))
 # Third Plot
 plot(data_for_plot$datetime,data_for_plot$Voltage,type="l",xlab = "datetime",ylab="Voltage")
 # Fourth Plot
-plot(data_for_plot$datetime,data_for_plot$Global_reactive_power,type="l",xlab = "datetime",ylab="Voltage")
+plot(data_for_plot$datetime,data_for_plot$Global_reactive_power,type="l",xlab = "datetime",ylab="Global_reactive_power")
 
 # Close the device connection
 dev.off()
